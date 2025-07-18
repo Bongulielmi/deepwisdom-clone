@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DeepWisdom Clone</title>
+  <meta name="description" content="Clone of DeepWisdom.ai with a modern design and responsive layout" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="brand">DeepWisdom</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="mobile-menu-toggle" tabindex="0" role="button" aria-label="Toggle menu" aria-expanded="false">Menu</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay">
+      <h1>Unlock the Wisdom of Data</h1>
+      <p>Harness advanced insights to drive your business forward.</p>
+      <a href="#features" class="cta-button">Discover More</a>
+    </div>
+  </section>
+
+  <!-- Features / Services Section -->
+  <section id="features" class="features">
+    <div class="feature-card">
+      <h2>Insightful Analytics</h2>
+      <p>Data-driven decisions made easy.</p>
+    </div>
+    <div class="feature-card">
+      <h2>Advanced AI Solutions</h2>
+      <p>Cutting-edge technology to accelerate growth.</p>
+    </div>
+    <div class="feature-card">
+      <h2>Customizable Reports</h2>
+      <p>Reports tailored to your specific needs.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <blockquote>
+      <p>"DeepWisdom has transformed the way we approach our data."</p>
+      <footer>- A Satisfied Client</footer>
+    </blockquote>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form" novalidate>
+      <input type="text" name="name" placeholder="Your Name" required aria-required="true" />
+      <input type="email" name="email" placeholder="Your Email" required aria-required="true" />
+      <textarea name="message" placeholder="Your Message" required aria-required="true"></textarea>
+      <button type="submit">Send Message</button>
+      <div id="form-error" class="error-message" aria-live="polite"></div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 DeepWisdom. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
